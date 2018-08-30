@@ -3,6 +3,7 @@ package com.myProfit;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import io.dropwizard.views.ViewBundle;
 
 public class myProfitApplicationApplication extends Application<myProfitApplicationConfiguration> {
 
@@ -17,13 +18,13 @@ public class myProfitApplicationApplication extends Application<myProfitApplicat
 
     @Override
     public void initialize(final Bootstrap<myProfitApplicationConfiguration> bootstrap) {
-        // TODO: application initialization
+        bootstrap.addBundle(new ViewBundle());
     }
 
     @Override
     public void run(final myProfitApplicationConfiguration configuration,
                     final Environment environment) {
-        // TODO: implement application
+
     }
 
 }
