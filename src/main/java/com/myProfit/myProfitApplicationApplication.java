@@ -1,5 +1,6 @@
 package com.myProfit;
 
+import com.myProfit.resources.homeResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
@@ -24,7 +25,7 @@ public class myProfitApplicationApplication extends Application<myProfitApplicat
     @Override
     public void run(final myProfitApplicationConfiguration configuration,
                     final Environment environment) {
-
+        environment.jersey().register(new homeResource());
     }
 
 }

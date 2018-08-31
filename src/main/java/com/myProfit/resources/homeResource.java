@@ -1,6 +1,8 @@
 package com.myProfit.resources;
 
 import io.dropwizard.views.freemarker.*;
+import com.myProfit.views.homeView;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.Arrays;
@@ -12,5 +14,13 @@ public class homeResource {
 
     public homeResource() {
         super();
+    }
+
+    @GET
+    @Path("home")
+    public homeView fetch() {
+        String name = "Devon";
+
+        return new homeView(name);
     }
 }

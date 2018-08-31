@@ -6,7 +6,7 @@ import org.hibernate.validator.constraints.*;
 import javax.validation.constraints.*;
 
 public class myProfitApplicationConfiguration extends Configuration {
-    @NotEmpty
+    //@NotEmpty
     private String game;
 
     @JsonProperty
