@@ -19,7 +19,7 @@ public class myProfitApplicationApplication extends Application<myProfitApplicat
 
     @Override
     public void initialize(final Bootstrap<myProfitApplicationConfiguration> bootstrap) {
-        bootstrap.addBundle(new ViewBundle());
+        bootstrap.addBundle(new ViewBundle<myProfitApplicationConfiguration>());
     }
 
     @Override

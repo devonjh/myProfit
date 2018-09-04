@@ -7,7 +7,7 @@ public class homeView extends View{
     private String userName;
 
     public homeView(String name) {
-        super("homePage.ftl");
+        super("landingPage.ftl");
         this.userName = name;
     }
 
