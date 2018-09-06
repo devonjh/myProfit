@@ -52,7 +52,7 @@
         <counts>
           <entry key="HTML" value="12" />
           <entry key="JAVA" value="1958" />
-          <entry key="JSON" value="5" />
+          <entry key="JSON" value="10" />
           <entry key="PLAIN_TEXT" value="519" />
           <entry key="XML" value="99" />
           <entry key="YAML" value="6" />
@@ -63,7 +63,7 @@
           <entry key="ftl" value="519" />
           <entry key="html" value="12" />
           <entry key="java" value="1958" />
-          <entry key="json" value="5" />
+          <entry key="json" value="10" />
           <entry key="xml" value="99" />
           <entry key="yml" value="6" />
         </counts>
@@ -98,11 +98,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bootstrap/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1132">
-              <caret line="759" column="24" lean-forward="true" selection-start-line="759" selection-start-column="24" selection-end-line="759" selection-end-column="24" />
+            <state relative-caret-position="367">
+              <caret line="756" column="31" lean-forward="true" selection-start-line="756" selection-start-column="31" selection-end-line="756" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -130,7 +130,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/myProfit/views/addNewSale.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -190,6 +190,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>lod</find>
+      <find>lodash</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -297,7 +298,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536225186636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536225322054" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -347,7 +348,7 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13354531" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13354531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +357,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3174727" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3174727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,17 +545,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bootstrap/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bootstrap/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="759" column="24" lean-forward="true" selection-start-line="759" selection-start-column="24" selection-end-line="759" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/myProfit/views/addNewSale.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bootstrap/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="756" column="31" lean-forward="true" selection-start-line="756" selection-start-column="31" selection-end-line="756" selection-end-column="31" />
         </state>
       </provider>
     </entry>
