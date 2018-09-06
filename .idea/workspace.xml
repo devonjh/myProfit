@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3436c72d-387b-4108-8926-ef03b5b9311f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myProfit/views/newSaleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/myProfit/views/addNewSale.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myProfit/myProfitApplicationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myProfit/myProfitApplicationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myProfit/resources/homeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myProfit/resources/homeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/myProfit/views/landingPage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/myProfit/views/landingPage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myProfit/myProfitApplicationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myProfit/myProfitApplicationApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myProfit/resources/homeResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myProfit/resources/homeResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myProfit/views/landingPage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myProfit/views/landingPage.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/bootstrap/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/bootstrap/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,6 +34,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
           <entry key="java" value="7" />
+          <entry key="json" value="2" />
           <entry key="txt" value="1" />
           <entry key="yml" value="2" />
         </counts>
@@ -50,6 +43,7 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="JAVA" value="7" />
+          <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="YAML" value="2" />
         </counts>
@@ -58,6 +52,7 @@
         <counts>
           <entry key="HTML" value="12" />
           <entry key="JAVA" value="1958" />
+          <entry key="JSON" value="5" />
           <entry key="PLAIN_TEXT" value="519" />
           <entry key="XML" value="99" />
           <entry key="YAML" value="6" />
@@ -68,6 +63,7 @@
           <entry key="ftl" value="519" />
           <entry key="html" value="12" />
           <entry key="java" value="1958" />
+          <entry key="json" value="5" />
           <entry key="xml" value="99" />
           <entry key="yml" value="6" />
         </counts>
@@ -85,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myProfit/myProfitApplicationApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -93,6 +89,20 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bootstrap/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bootstrap/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1132">
+              <caret line="759" column="24" lean-forward="true" selection-start-line="759" selection-start-column="24" selection-end-line="759" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -120,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/myProfit/views/addNewSale.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -168,15 +178,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -185,6 +186,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lod</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -208,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/myProfit/views/addNewSale.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/myProfit/resources/homeResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myProfit/myProfitApplicationApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/bootstrap/package-lock.json" />
       </list>
     </option>
   </component>
@@ -273,6 +280,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myProfit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProfit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -282,7 +297,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536224980574" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536225186636" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -332,7 +347,7 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13354531" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13354531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,7 +356,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3174727" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3174727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,7 +375,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25596184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13354531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,12 +384,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3174727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299532" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23712948" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299532" />
@@ -481,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/myProfit/views/addNewSale.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myProfit/resources/newSaleResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -530,6 +538,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bootstrap/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bootstrap/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1132">
+          <caret line="759" column="24" lean-forward="true" selection-start-line="759" selection-start-column="24" selection-end-line="759" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/myProfit/views/addNewSale.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
