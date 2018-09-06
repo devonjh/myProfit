@@ -35,7 +35,7 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="newsale">Services</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -49,7 +49,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h1> Hello ${username}! Welcome to myProfit </h1>
+          <h1> Hello. Welcome to addNewPlayer. </h1>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import io.dropwizard.views.ViewBundle;
+import io.dropwizard.assets.AssetsBundle;
 
 public class myProfitApplicationApplication extends Application<myProfitApplicationConfiguration> {
 
@@ -19,6 +20,7 @@ public class myProfitApplicationApplication extends Application<myProfitApplicat
 
     @Override
     public void initialize(final Bootstrap<myProfitApplicationConfiguration> bootstrap) {
+        bootstrap.addBundle(new AssetsBundle());
         bootstrap.addBundle(new ViewBundle<myProfitApplicationConfiguration>());
     }
 
@@ -27,5 +29,4 @@ public class myProfitApplicationApplication extends Application<myProfitApplicat
                     final Environment environment) {
         environment.jersey().register(new homeResource());
     }
-
 }
