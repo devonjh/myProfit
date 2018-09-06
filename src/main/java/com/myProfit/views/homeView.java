@@ -1,17 +1,17 @@
 package com.myProfit.views;
 
-import io.dropwizard.views.View;
-import io.dropwizard.views.freemarker.*;
+        import io.dropwizard.views.View;
+        import io.dropwizard.views.freemarker.*;
 
 public class homeView extends View{
-    private String userName;
+    private final String username;
 
     public homeView(String name) {
         super("landingPage.ftl");
-        this.userName = name;
+        this.username = name;
     }
 
-    public String getName() {
-        return this.userName;
+    public String getUsername() {
+        return this.username;
     }
 }

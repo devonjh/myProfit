@@ -19,8 +19,6 @@ public class homeResource {
     @GET
     @Path("home")
     public homeView fetch() {
-        String name = "Devon";
-
-        return new homeView(name);
+        return new homeView("Devon");
     }
 }
